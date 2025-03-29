@@ -4,10 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nature Trip</title>
-</head>
-
-<style>
-    .body {
+  <style>
+    body {
       font-family: Oswald, sans-serif;
       font-size: 20px;
       line-height: 1.6;
@@ -33,25 +31,25 @@
     .container {
       max-width: 900px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 30px;
       background: #fff;
     }
 
-    .h1 {
+    h1 {
       text-align: left;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
-    .h2 {
+    h2 {
       text-align: left;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
 
     .images {
       display: block; 
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       border-bottom: 1px solid #ccc;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
     }
 
     .images img {
@@ -60,12 +58,23 @@
       margin-bottom: 30px;
     }
     
-      .@media (min-width: 768px) {
+      @media (min-width: 768px) {
         .images img {
           width: 100%;
           height: auto;
         }
-</style>
+      }
+      
+      @media (max-width: 768px) {
+        .images img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 20px;
+        }
+      }
+
+  </style>
+</head>
 
 <body>
 
@@ -116,4 +125,3 @@
 
 </body>
 </html>
-        
